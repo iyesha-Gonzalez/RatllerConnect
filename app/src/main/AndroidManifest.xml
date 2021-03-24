@@ -12,6 +12,11 @@
         <activity android:name=".Chat"></activity>
         <activity android:name=".ChatList" />
         <activity android:name=".MainActivity">
+
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.ProfileTheme">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
