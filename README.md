@@ -215,7 +215,7 @@ Unit 8: Group Milestone - README
 <img src ="https://i.imgur.com/4Tz8STY.png" width=200> <img src = "https://i.imgur.com/C3H3Ioi.png" width=200>
 
 ## SignUp/Login 
-<img src ="https://imgur.com/56YVBxi.png" width=200><img src ="https://https://imgur.com/Fdqjj4U.png" width=200>
+<img src ="https://imgur.com/56YVBxi.png" width=200><img src ="https://imgur.com/Fdqjj4U.png" width=200>
 
 
 
