@@ -203,5 +203,8 @@ Unit 8: Group Milestone - README
     * (Update/PUT) Update user profile image
     * (Update/PUT) Update user profile description
 
-## Sprint 1 
+## Sprint 1
+### Post
+![Screen Shot 2021-03-23 at 10 24 31 PM](https://user-images.githubusercontent.com/57050918/112245138-b51aa400-8c26-11eb-9aa9-2a9994daf95b.png)
+
 
