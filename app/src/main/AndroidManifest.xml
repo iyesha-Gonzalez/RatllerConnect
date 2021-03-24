@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RattlerConnect">
         <activity android:name=".MainActivity">
+
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.ProfileTheme">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
