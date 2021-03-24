@@ -209,6 +209,11 @@ Unit 8: Group Milestone - README
 ![Screen Shot 2021-03-23 at 10 24 31 PM](https://user-images.githubusercontent.com/57050918/112245138-b51aa400-8c26-11eb-9aa9-2a9994daf95b.png)
 #### Recycler View for Posts
 ![Screen Shot 2021-03-23 at 10 28 46 PM](https://user-images.githubusercontent.com/57050918/112245479-5570c880-8c27-11eb-99e5-1414f5d09f0e.png)
+### Message
+<img src ="https://i.imgur.com/S4Ia2Le.png" width=200> <img src = "https://i.imgur.com/C3H3Ioi.png" width=200>
+### Chat
+<img src ="https://i.imgur.com/4Tz8STY.png" width=200> <img src = "https://i.imgur.com/C3H3Ioi.png" width=200>
+
 
 
 
