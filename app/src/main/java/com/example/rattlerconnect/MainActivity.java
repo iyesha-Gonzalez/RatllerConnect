@@ -2,6 +2,7 @@ package com.example.rattlerconnect;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
@@ -21,10 +22,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         final FragmentManager fragmentManager = getSupportFragmentManager();
 
         // define your fragments here
-        final Fragment homefragment = new HomeFragment();
+        final Fragment homefragment    = new HomeFragment();
         final Fragment messagefragment = new MessageFragment();
         final Fragment composefragment = new ComposeFragment();
         final Fragment profilefragment = new ProfileFragment();
@@ -51,8 +53,9 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new ComposeFragment();
                         break;
                     case R.id.action_profile:
-                    default:
                         fragment = new ProfileFragment();
+                    default:
+                        fragment = new HomeFragment();
                         break;
                 }
                 fragmentManager.beginTransaction().replace(R.id.flContainer, fragment).commit();

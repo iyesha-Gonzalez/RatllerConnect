@@ -8,18 +8,17 @@
     android:background="@drawable/venom"
     android:padding="16dp"
     android:scrollbarThumbVertical="@null"
-    tools:context=".SignUpActivity">
+    tools:context=".RegisterActivity">
 
 
     <androidx.cardview.widget.CardView
-        xmlns:Card_View="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="5dp"
         android:padding="10dp"
-        Card_View:cardCornerRadius="5dp"
-        Card_View:cardElevation="5dp">
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,7 +34,7 @@
                 android:layout_marginTop="5dp">
 
                 <EditText
-                    android:id="@+id/name"
+                    android:id="@+id/etName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -54,7 +53,7 @@
                 android:layout_marginTop="5dp">
 
                 <EditText
-                    android:id="@+id/email"
+                    android:id="@+id/etEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -73,7 +72,7 @@
                 android:layout_marginTop="5dp">
 
                 <EditText
-                    android:id="@+id/phone"
+                    android:id="@+id/etPhone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -87,14 +86,37 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/userError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="5dp">
+
+
+                <EditText
+                    android:id="@+id/etUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/prompt_username"
+                    android:maxLines="1"
+                    android:paddingStart="5dp"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/passError"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:passwordToggleEnabled="true"
                 android:layout_marginTop="5dp">
 
+
+
                 <EditText
-                    android:id="@+id/password"
+                    android:id="@+id/etPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -107,9 +129,9 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/signup"
+                android:id="@+id/btnSignup"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="38dp"
                 android:layout_margin="20dp"
                 android:background="@drawable/button_gradient"
                 android:text="@string/SignUp"
