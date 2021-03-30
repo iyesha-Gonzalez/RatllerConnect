@@ -29,15 +29,15 @@ Unit 8: Group Milestone - README
 
 **Required Must-have Stories**
 
-[x] User logs in to access previous chats,profile, view posts
+[] User logs in to access previous chats,profile, view posts
 [] User picks their current or upcoming career field.
 [] User can view other users posts and profiles that are in the same career field as themselves (Think Instagram).
 [] User can send their resume under a post if they are interested in the position (Think LikedIn) 
-[x] Users would be able to create/ join chatrooms to network with other users(GroupMe Style).
-[x] Profile pages for each user.
+[] Users would be able to create/ join chatrooms to network with other users(GroupMe Style).
+[] Profile pages for each user.
 [] Settings (Accesibility, Notification, General, etc.)
 [] User can like a photo
-[x] User can compose a post
+[] User can compose a post
 [] User can follow/unfollow another user
 [] User can chane aplication settings
 [] User can upload a photo from camera roll, take picture, or upload a document 
