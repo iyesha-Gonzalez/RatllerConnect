@@ -29,22 +29,23 @@ Unit 8: Group Milestone - README
 
 **Required Must-have Stories**
 
-* User logs in to access previous chats,profile settings and view posts
-* User picks their current or upcoming career field.
-* User can view other users posts and profiles that are in the same career field as themselves (Think Instagram).
-* User can send their resume under a post if they are interested in the position (Think LikedIn) 
-* Users would be able to create/ join chatrooms to network with other users(GroupMe Style).
-* Profile pages for each user.
-* Settings (Accesibility, Notification, General, etc.)
-* User can like a photo
-* User can follow/unfollow another user
+[] User logs in to access previous chats,profile, view posts
+[] User picks their current or upcoming career field.
+[] User can view other users posts and profiles that are in the same career field as themselves (Think Instagram).
+[] User can send their resume under a post if they are interested in the position (Think LikedIn) 
+[] Users would be able to create/ join chatrooms to network with other users(GroupMe Style).
+[] Profile pages for each user.
+[] Settings (Accesibility, Notification, General, etc.)
+[] User can like a photo
+[] User can follow/unfollow another user
+[] User can chane aplication settings
+[] user can upload a photo from camera roll, take picture, or upload a document 
 
 **Optional Nice-to-have Stories**
 
-* User would be able to advertise their business to gain clients
-* Users would be able to create stories (think instagram, snapchat, and facebook).
-* User can add a comment to a photo
-* User can see notifications when their photo is liked or they are followed
+[] User would be able to advertise their business to gain clients[]* Users would be able to create stories (think instagram, snapchat, and facebook).
+[] User can add a comment to a photo
+[] User can see notifications when their photo is liked or they are followed
 
 
 
