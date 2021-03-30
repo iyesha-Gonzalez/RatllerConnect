@@ -48,6 +48,8 @@ Unit 8: Group Milestone - README
 [] User would be able to advertise their business to gain clients[]* Users would be able to create stories (think instagram, snapchat, and facebook).
 [] User can add a comment to a photo
 [] User can see notifications when their photo is liked or they are followed
+[]splash screen shown when app is first opened
+[]App image 
 
 
 
