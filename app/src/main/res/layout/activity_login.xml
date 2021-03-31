@@ -26,8 +26,6 @@
         android:layout_marginTop="307dp"
         android:layout_marginEnd="33dp"
         android:layout_marginBottom="26dp"
-        android:cardCornerRadius="5dp"
-        android:cardElevation="5dp"
         android:padding="10dp">
 
         <LinearLayout
@@ -47,7 +45,7 @@
                 app:passwordToggleEnabled="true">
 
                 <EditText
-                    android:id="@+id/password"
+                    android:id="@+id/etPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -58,7 +56,7 @@
                     android:singleLine="true" />
 
                 <Button
-                    android:id="@+id/login"
+                    android:id="@+id/btnLogin"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_margin="20dp"
@@ -70,7 +68,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
-                android:id="@+id/SignUp"
+                android:id="@+id/tvRegister"
                 android:layout_width="221dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="31dp"
@@ -83,12 +81,12 @@
         </LinearLayout>
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/etUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:hint="@string/prompt_email"
-            android:inputType="textEmailAddress"
+            android:hint="@string/prompt_username"
+            android:inputType="textNoSuggestions"
             android:maxLines="1"
             android:paddingStart="5dp"
             android:singleLine="true" />

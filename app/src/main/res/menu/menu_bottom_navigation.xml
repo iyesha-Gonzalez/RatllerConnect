@@ -10,7 +10,7 @@
         android:enabled="true"
         android:icon="@drawable/home_selector"
         app:showAsAction="ifRoom"
-        android:title="TODO"
+        android:title="HOME"
         />
 
     <item
@@ -18,21 +18,21 @@
         android:enabled="true"
         android:icon="@drawable/message_selector"
         app:showAsAction="ifRoom"
-        android:title="TODO" />
+        android:title="CHAT" />
 
     <item
         android:id="@+id/action_compose"
         android:enabled="true"
         android:icon="@drawable/compose_selector"
         app:showAsAction="ifRoom"
-        android:title="TODO" />
+        android:title="POST" />
 
     <item
         android:id="@+id/action_profile"
         android:enabled="true"
         android:icon="@drawable/profile_selector"
         app:showAsAction="ifRoom"
-        android:title="TODO" />
+        android:title="PROFILE" />
 
 
 </menu>
