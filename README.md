@@ -32,7 +32,7 @@ Unit 8: Group Milestone - README
 - [X] User logs in to access previous chats,profile, view posts
 - [ ] User picks their current or upcoming career field.
 - [ ]User can view other users posts and profiles that are in the same career field as themselves (Think Instagram).
-###- [ ] User can send their resume under a post if they are interested in the position (Think LikedIn) 
+- [ ] User can send their resume under a post if they are interested in the position (Think LikedIn) 
 - [X] Users would be able to create/ join chatrooms to network with other users(GroupMe Style).
 - [X] Profile pages for each user.
 - [ ] Settings (Accesibility, Notification, General, etc.)
