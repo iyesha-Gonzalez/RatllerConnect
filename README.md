@@ -227,6 +227,11 @@ Unit 8: Group Milestone - README
 
 
 
+## Sprint 2
+### Chat
+![Alt Text](https://github.com/iyesha-Gonzalez/RattlerConnect/blob/master/ChatDemo.gif)
+
+
 
 
 
