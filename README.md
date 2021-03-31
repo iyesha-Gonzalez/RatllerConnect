@@ -40,7 +40,7 @@ Unit 8: Group Milestone - README
 - [X] User can compose a post
 - [ ] User can follow/unfollow another user
 - [ ] User can change aplication settings
-- [X] User can upload a photo from camera roll, take picture, or upload a document 
+- [ ] User can upload a photo from camera roll, take picture, or upload a document 
 - [ ] User can view followers and following on profile page
 - [ ] User can view other users following and follower list
 
