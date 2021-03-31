@@ -37,7 +37,7 @@ Unit 8: Group Milestone - README
 - [X] Profile pages for each user.
 - [ ] Settings (Accesibility, Notification, General, etc.)
 - [ ] User can like a photo
-- [X] User can compose a post
+- [ ] User can compose a post
 - [ ] User can follow/unfollow another user
 - [ ] User can change aplication settings
 - [ ] User can upload a photo from camera roll, take picture, or upload a document 
