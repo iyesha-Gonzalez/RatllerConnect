@@ -14,4 +14,9 @@
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="password_error">Please enter a password</string>
     <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+    <string name="todo">TODO</string>
+    <string name="message_hint">Your Message</string>
+    <string name="send">Send</string>
+    <string name="profile_me">My Profile Pic</string>
+    <string name="profile_other">Other profile pic</string>
 </resources>
