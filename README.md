@@ -231,6 +231,9 @@ Unit 8: Group Milestone - README
 ### Chat
 ![Alt Text](https://github.com/iyesha-Gonzalez/RattlerConnect/blob/master/ChatDemo.gif)
 
+###Login, Signup, Logout
+<img src="signup.gif" width=250><br>
+
 
 
 
