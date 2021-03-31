@@ -6,6 +6,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+
+        android:usesCleartextTraffic="true"
+
         android:name=".ParseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,7 +17,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RattlerConnect">
 
-        <activity android:name=".PostDetailActivity"></activity>
+
+
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Chat"/>
