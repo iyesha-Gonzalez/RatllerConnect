@@ -20,7 +20,6 @@
     <ImageView
         android:id="@+id/ivProfileOther"
         android:layout_alignParentLeft="true"
-        android:contentDescription="@string/profile_other"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:src="@mipmap/ic_launcher" />

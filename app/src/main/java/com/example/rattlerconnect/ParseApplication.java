@@ -2,9 +2,7 @@ package com.example.rattlerconnect;
 
 import android.app.Application;
 
-import com.example.rattlerconnect.model.Post;
 import com.parse.Parse;
-import com.parse.ParseObject;
 
 public class ParseApplication extends Application {
     @Override

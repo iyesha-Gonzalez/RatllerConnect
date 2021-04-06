@@ -18,7 +18,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.example.rattlerconnect.LoginActivity;
 import com.example.rattlerconnect.R;
-import com.example.rattlerconnect.model.Post;
+import com.example.rattlerconnect.Post;
 import com.parse.ParseUser;
 
 import java.util.List;
