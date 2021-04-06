@@ -9,22 +9,8 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#005A5A5A"
-        android:foreground="@drawable/nav_logo_whiteout"
-        android:foregroundGravity="center"
-        app:layout_constraintBottom_toTopOf="@+id/flContainer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
 
-    </androidx.appcompat.widget.Toolbar>
 
     <FrameLayout
         android:id="@+id/flContainer"
@@ -45,15 +31,7 @@
         app:layout_constraintVertical_bias="0.995"
         app:menu="@menu/menu_bottom_navigation"></com.google.android.material.bottomnavigation.BottomNavigationView>
 
-    <View
-        android:id="@+id/divider3"
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        android:background="#8B8B8B"
-        app:layout_constraintBottom_toTopOf="@+id/flContainer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
 
 
 
