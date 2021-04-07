@@ -36,14 +36,13 @@ Unit 8: Group Milestone - README
 - [ ] User is able to create chatrooms to network with other users(GroupMe Style).
 - [ ] User is able to join chatrooms to network with other users(GroupMe Style).
 - [X] Profile pages for each user.
-- [ ] Settings (Accesibility, Notification, General, etc.)
-- [ ] User can like a photo
 - [X] User can compose a post
 - [X] User can upload a photo from camera roll, take picture, or upload a document 
 
 
 **Optional Nice-to-have Stories**
 
+- [ ] Settings (Accesibility, Notification, General, etc.)
 - [ ] User would be able to advertise their business to gain clients[]* Users would be able to create stories (think instagram, snapchat, and facebook).
 - [ ] User can add a comment to a photo
 - [ ] User can see notifications when their photo is liked or they are followed
