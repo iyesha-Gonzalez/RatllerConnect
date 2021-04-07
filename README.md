@@ -32,30 +32,27 @@ Unit 8: Group Milestone - README
 - [X] User logs in to access previous chats,profile, view posts
 - [ ] User picks their current or upcoming career field.
 - [ ]User can view other users posts and profiles that are in the same career field as themselves (Think Instagram).
-- [ ] User can send their resume under a post if they are interested in the position (Think LikedIn) 
 - [X] Users would be able to chat with other user to network
 - [ ] User is able to create chatrooms to network with other users(GroupMe Style).
 - [ ] User is able to join chatrooms to network with other users(GroupMe Style).
 - [X] Profile pages for each user.
-- [ ] Settings (Accesibility, Notification, General, etc.)
-- [ ] User can like a photo
-- [ ] User can compose a post
-- [ ] User can follow/unfollow another user
-- [ ] User can change profile  settings
-- [ ] User can upload a photo from camera roll, take picture, or upload a document 
-- [ ] User can view followers and following on profile page
-- [ ] User can view other users following and follower list
+- [X] User can compose a post
+- [X] User can upload a photo from camera roll, take picture, or upload a document 
+
 
 **Optional Nice-to-have Stories**
 
+- [ ] Settings (Accesibility, Notification, General, etc.)
 - [ ] User would be able to advertise their business to gain clients[]* Users would be able to create stories (think instagram, snapchat, and facebook).
 - [ ] User can add a comment to a photo
 - [ ] User can see notifications when their photo is liked or they are followed
 - [ ] splash screen shown when app is first opened
 - [ ] App image 
-
-
-
+- [ ] User can follow/unfollow another user
+- [ ] User can change profile  settings
+- [ ] User can view followers and following on profile page
+- [ ] User can view other users following and follower list
+- [ ] User can send their resume under a post if they are interested in the position (Think LikedIn) 
 
 ### 2. Screen Archetypes
 
@@ -235,7 +232,10 @@ Unit 8: Group Milestone - README
 
 <img src="signup.gif" width=250><br>
 
+### NAVIGATION BETWEEN PAGES
+![ALT Text](https://github.com/iyesha-Gonzalez/RattlerConnect/blob/master/NavDemo.gif)
 
+there is a crash that occurs when trying to access the chat page in this video that will be a major fix for us next week.
 
 
 

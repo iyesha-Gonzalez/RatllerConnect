@@ -14,33 +14,29 @@
         android:layout_height="match_parent" />
     <RelativeLayout
         android:id="@+id/rlSend"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="68dp"
-        android:paddingLeft="0dp"
+        android:layout_width="match_parent"
         android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="0dp"
         android:paddingRight="0dp"
-        android:paddingBottom="10dp">
-
+        android:layout_height="wrap_content" >
         <EditText
             android:id="@+id/etMessage"
+            android:layout_toStartOf="@+id/btSend"
+            android:layout_alignBottom="@+id/btSend"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/btSend"
-            android:layout_toStartOf="@+id/btSend"
-            android:autofillHints=""
             android:gravity="top"
-            android:hint="Your Message"
+            android:inputType="textShortMessage"
             android:imeOptions="actionSend"
-            android:inputType="textShortMessage" />
+            android:autofillHints="" />
 
         <ImageButton
             android:id="@+id/btSend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:contentDescription="Send"
             android:gravity="center"
             android:paddingEnd="10dp"
             android:src="@android:drawable/ic_menu_send"

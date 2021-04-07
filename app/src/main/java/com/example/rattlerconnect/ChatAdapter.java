@@ -61,7 +61,7 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MessageViewHol
         public void bindMessage(Message message) {
             Glide.with(mContext)
                     .load(getProfileUrl(message.getUserId()))
-                    .circleCrop() // create an effect of a round profile picture
+                    //.circleCrop() // create an effect of a round profile picture
                     .into(imageOther);
             body.setText(message.getBody());
             name.setText(message.getUserId()); // in addition to message show user ID
@@ -83,7 +83,7 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MessageViewHol
         public void bindMessage(Message message) {
             Glide.with(mContext)
                     .load(getProfileUrl(message.getUserId()))
-                    .circleCrop() // create an effect of a round profile picture
+                    //.circleCrop() // create an effect of a round profile picture
                     .into(imageMe);
             body.setText(message.getBody());
         }
