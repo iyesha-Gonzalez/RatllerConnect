@@ -39,12 +39,11 @@ public class PostsFragment extends Fragment {
     }
 
 
-
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(LayoutInflater inflater, ViewGroup parent,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_posts, container, false);
+        return inflater.inflate(R.layout.fragment_posts,parent, false);
     }
 
     @Override
@@ -77,6 +76,7 @@ public class PostsFragment extends Fragment {
                     Log.e(TAG, "Issue with getting posts");
                     return;
                 }
+                Log.d(TAG, posts.toString());
                 for (Post post : posts){
                     Log.i(TAG, "Post: " + post.getDescription() + ", username" + post.getUser().getUsername());
                 }
