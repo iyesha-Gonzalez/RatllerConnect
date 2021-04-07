@@ -80,6 +80,7 @@ public class ComposeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 launchCamera();
+                Log.d(TAG, "click");
             }
         });
 
