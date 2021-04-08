@@ -38,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:hint="@string/name"
+                    android:hint="First &amp; Last Name"
                     android:inputType="textNoSuggestions"
                     android:maxLines="1"
                     android:paddingStart="5dp"
@@ -89,7 +89,6 @@
                 android:id="@+id/userError"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:passwordToggleEnabled="true"
                 android:layout_marginTop="5dp">
 
 

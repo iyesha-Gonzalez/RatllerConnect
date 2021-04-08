@@ -7,11 +7,15 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 
 import com.parse.FindCallback;
@@ -29,6 +33,7 @@ import java.util.List;
  * A simple {@link Fragment} subclass.
  */
 public class PostsFragment extends Fragment {
+
     public static final String TAG = "PostsFragment";
     private RecyclerView rvPosts;
     protected PostsAdapter adapter;

@@ -1,14 +1,20 @@
 package com.example.rattlerconnect;
 
 
+import android.text.format.DateUtils;
+
 import com.parse.ParseClassName;
+import com.parse.ParseException;
 import com.parse.ParseFile;
 
 
 import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
+import java.util.Locale;
 
 @ParseClassName("Post")
 public class Post extends ParseObject implements Serializable {
@@ -40,5 +46,39 @@ public class Post extends ParseObject implements Serializable {
 
     public void setUser(ParseUser user){
         put(KEY_USER, user);
+    }
+
+    //query of Post class
+    public static class Query extends ParseQuery<Post> {
+        public Query() {
+            super(Post.class);
+        }
+
+        public Query getTop() {
+            setLimit(20);
+            return this;
+        }
+
+        public Query withUser() {
+            include("user");
+            return this;
+        }
+    }
+
+    public String getRelativeTimeAgo(String parseDate) {
+        String dateFormat = "EEE MMM dd HH:mm:ss ZZZZZ yyyy";
+        SimpleDateFormat sf = new SimpleDateFormat(dateFormat, Locale.ENGLISH);
+        sf.setLenient(true);
+
+        String relativeDate = "";
+        try {
+            long dateMillis = sf.parse(parseDate).getTime();
+            relativeDate = DateUtils.getRelativeTimeSpanString(dateMillis,
+                    System.currentTimeMillis(), DateUtils.SECOND_IN_MILLIS).toString();
+        } catch (java.text.ParseException e) {
+            e.printStackTrace();
+        }
+
+        return relativeDate;
     }
 }
