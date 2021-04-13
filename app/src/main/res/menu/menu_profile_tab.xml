@@ -10,11 +10,5 @@
         app:showAsAction="ifRoom"
         android:title="Compose">
     </item>
-    <item
-        android:id="@+id/miSettings"
-        android:icon="@drawable/ufi_settings"
-        app:showAsAction="ifRoom|withText"
-        android:title="Profile">
-    </item>
 
 </menu>

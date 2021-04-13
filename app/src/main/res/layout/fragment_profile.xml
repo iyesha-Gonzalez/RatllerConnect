@@ -55,7 +55,7 @@
                             android:id="@+id/tvName"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mary Poppings"
+                            android:text="Mary Pippings"
                             android:textStyle="bold"
                             android:textSize="25sp"
                             android:layout_marginTop="60dp"
@@ -177,5 +177,10 @@
 
         </RelativeLayout>
     </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/child_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>

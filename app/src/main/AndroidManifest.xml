@@ -19,7 +19,7 @@
         android:theme="@style/Theme.RattlerConnect">
 
 
-
+        <activity android:name=".PostDetailActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity">
