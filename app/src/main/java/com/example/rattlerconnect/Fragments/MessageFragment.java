@@ -76,7 +76,7 @@ public class MessageFragment extends Fragment {
             final LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
             linearLayoutManager.setReverseLayout(true);
             rvChat.setLayoutManager(linearLayoutManager);
-
+            refreshMessages();
             // When send button is clicked, create message object on Parse
             btSend.setOnClickListener(new View.OnClickListener() {
                 @Override
