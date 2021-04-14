@@ -232,7 +232,8 @@ Unit 8: Group Milestone - README
 ### NAVIGATION BETWEEN PAGES
 ![ALT Text](https://github.com/iyesha-Gonzalez/RattlerConnect/blob/master/NavDemo.gif)
 
-there is a crash that occurs when trying to access the chat page in this video that will be a major fix for us next week.
+### FINAL SPRINT GIF
+![ALT TEXT](https://github.com/iyesha-Gonzalez/RattlerConnect/blob/master/RattlerConnectFinal.gif)
 
 
 
